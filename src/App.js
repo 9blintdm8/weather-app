@@ -53,7 +53,7 @@ const dateBuilder = (d) => {
           value = {query}
           onKeyPress={search}
           />  
-          {/* {console.log("query:", query)} */}
+          {console.log("query:", query)}
         </div>
         {(typeof weather.main != "undefined") ? (
         <div>
